@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { defaultKanban } from './mock'
 import type { TodoList, inProgressTodo } from './type'
 import { cardTemplate } from './templates/card'
-import './style.css'
 import { addListButtonTemplate } from './templates/addListButtonTemplate';
+import './style.css'
 
 
 class KanbanApp {
@@ -29,7 +29,9 @@ class KanbanApp {
       board.innerHTML = '';   //render전 main을 한번 비워준다. 
       
 
-      const fragment = document.createDocumentFragment(); // createDocumentFragement() 다른 노드를 담는 임시 컨테이너 역할을 하는 특수 목적의 노드이다. 가상의 노드 객체로서, 메모리상에서만 존재하는 비 문서 탬플릿
+      const fragment = document.createDocumentFragment(); 
+      // createDocumentFragement() 다른 노드를 담는 임시 컨테이너 역할을 하는 특수 목적의 노드이다. 
+      //가상의 노드 객체로서, 메모리상에서만 존재하는 비 문서 탬플릿
       const listElements = this.list.map((list) => this.generateList(list));
 
       fragment.append(...listElements); 

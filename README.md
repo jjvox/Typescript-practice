@@ -2,7 +2,6 @@
 
 Typescript 구현 연습
 
-Zerobase TypeScript 수업 중 실습
 
 1. **Caculator**
 
@@ -22,3 +21,6 @@ https://github.com/jjvox/Typescript-practice/tree/master/3.%20TS-Kanban
 
 ![typescript 03](https://user-images.githubusercontent.com/110772094/211716373-767dbb00-08c8-4418-a6fb-fce27bc2337f.PNG)
 
+
+
+-Zerobase TypeScript 수업 중 실습..-
